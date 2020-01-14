@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul001", "Modul001\Modul001.csproj", "{4DE4A9F8-A9A5-4608-BA95-C5EA36343994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul001_Lab", "Modul001_Lab\Modul001_Lab.csproj", "{94FBF79C-7678-4960-88B7-39FD32042264}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul002", "Modul002", "{B68EBF06-EB23-4D08-8A31-6C63B4EAB071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul002.1_Kontrollstrukturen", "Modul002.1_Kontrollstrukturen\Modul002.1_Kontrollstrukturen.csproj", "{C16E09D5-F36B-46C0-9DDC-45523E204B0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul002.2_Lab", "Modul002.2_Lab\Modul002.2_Lab.csproj", "{0AD15644-077C-4ACB-9B92-03222CFABDF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul002.3_enum_und_switch", "Modul002.3_enum_und_switch\Modul002.3_enum_und_switch.csproj", "{3E5E85F9-AAFE-48D0-BF8A-EC89E3767DDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DE4A9F8-A9A5-4608-BA95-C5EA36343994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE4A9F8-A9A5-4608-BA95-C5EA36343994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE4A9F8-A9A5-4608-BA95-C5EA36343994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE4A9F8-A9A5-4608-BA95-C5EA36343994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94FBF79C-7678-4960-88B7-39FD32042264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94FBF79C-7678-4960-88B7-39FD32042264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94FBF79C-7678-4960-88B7-39FD32042264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94FBF79C-7678-4960-88B7-39FD32042264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C16E09D5-F36B-46C0-9DDC-45523E204B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16E09D5-F36B-46C0-9DDC-45523E204B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16E09D5-F36B-46C0-9DDC-45523E204B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16E09D5-F36B-46C0-9DDC-45523E204B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AD15644-077C-4ACB-9B92-03222CFABDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD15644-077C-4ACB-9B92-03222CFABDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD15644-077C-4ACB-9B92-03222CFABDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD15644-077C-4ACB-9B92-03222CFABDF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5E85F9-AAFE-48D0-BF8A-EC89E3767DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5E85F9-AAFE-48D0-BF8A-EC89E3767DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5E85F9-AAFE-48D0-BF8A-EC89E3767DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5E85F9-AAFE-48D0-BF8A-EC89E3767DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C16E09D5-F36B-46C0-9DDC-45523E204B0D} = {B68EBF06-EB23-4D08-8A31-6C63B4EAB071}
+		{0AD15644-077C-4ACB-9B92-03222CFABDF0} = {B68EBF06-EB23-4D08-8A31-6C63B4EAB071}
+		{3E5E85F9-AAFE-48D0-BF8A-EC89E3767DDB} = {B68EBF06-EB23-4D08-8A31-6C63B4EAB071}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A32C1CC7-F25E-4919-B114-691938A40A6C}
+	EndGlobalSection
+EndGlobal
