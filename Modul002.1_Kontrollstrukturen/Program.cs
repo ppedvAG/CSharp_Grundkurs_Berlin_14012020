@@ -12,13 +12,15 @@ namespace Modul002._1_Kontrollstrukturen
         {
             #region Sample1 If-Stamtements
 
+            // Variablen deklarieren und initialisieren
             int a = 25;
             int b = 30;
 
+            // Ist Variable 'a' kleiner als Variable 'b'
             if (a < b)
             {
                 Console.WriteLine($"Variable b ist größer als Variable a");
-            }
+            } // Ist Variable 'a' gleich 30
             else if (a == 30)
             {
                 Console.WriteLine($"Variable a hat den Wert 30");
@@ -32,8 +34,8 @@ namespace Modul002._1_Kontrollstrukturen
                 Console.WriteLine("Keine Bedienung wurde erfüllt");
             }
 
+            //if - Kurzschreibweise -> a == b 
             string ergebnis = (a == b) ? "A ist gleich B" : "A ist ungleich B";
-
 
             string name = "Otto";
             if (name == "Otto")
@@ -47,12 +49,7 @@ namespace Modul002._1_Kontrollstrukturen
 
             }
             
-
-
-            
-
             Console.WriteLine(ergebnis);
-
             #endregion
 
             #region Schleifen
@@ -61,7 +58,7 @@ namespace Modul002._1_Kontrollstrukturen
             //int b = 30;
             //WHILE-Schleife
             ///Die WHILE-Schleife wird wiederholt, solange die Bedingung wahr ist. Ist die Bedingung von vornherein unwahr, dann wird die Schleife übersprungen
-            while (a<b)
+            while (a < b)
             {
                 Console.WriteLine($"{a} ist kleiner als {b}");
                 
@@ -122,10 +119,8 @@ namespace Modul002._1_Kontrollstrukturen
             #endregion
 
             int[] zahlen = { 3, 6, 9, 12, 15, 18 };
-
-         
-
             int anzahlDerElemente = zahlen.Length;
+
             // for schleife, zählerschleife. wenn auf listen zugegriffen werden, die einen Index unterstützen
             for (int counter = 0; counter == zahlen.Length; counter++)
             {
@@ -137,7 +132,6 @@ namespace Modul002._1_Kontrollstrukturen
                 Console.WriteLine("Der Wert 9 wurde gefunden");
             }
 
-
             //foreach Schleife
             foreach (int currentNumber in zahlen)
             {
@@ -145,7 +139,6 @@ namespace Modul002._1_Kontrollstrukturen
             }
 
             Console.WriteLine($"Anzahl der Elemente in meinem Array {zahlen.Length}");
-
             //index eines Array beginnt bei 0 
             Console.WriteLine(zahlen[0]);
 
@@ -161,9 +154,6 @@ namespace Modul002._1_Kontrollstrukturen
                 }
             }
             #endregion
-
-
-
         }
     }
 }

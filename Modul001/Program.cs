@@ -10,16 +10,21 @@ namespace Modul001
     {
         static void Main(string[] args)
         {
-
+            //UTF8 lässt €-Zeichen in einer Konsole anzeigen lassen
             Console.OutputEncoding = Encoding.UTF8;
+
+            //Ausgabe von Hallo Welt
             Console.WriteLine("Hallo Welt");
             Console.ReadLine();
 
 
             //Hallo Variablen
-            int alter;
 
+            //Deklarieren einer Variable
+            int alter;
+            //Initialisierung einer Variable
             alter = 31;
+            //Deklaration + Initialisierung
             string stadt = "Berlin";
             int summe = alter * 2;
             summe = summe * 2;
@@ -88,28 +93,20 @@ namespace Modul001
             Console.ReadKey();
 
             //Nullable DataTypes 
-            //int? shoe = null;
+            int? shoe = null;
+            int normalValue;
 
-            //if (shoe.HasValue)
-            //{
-
-            //}
+            //Überprüfe, ob Variable shoe initialisiert wurde.
+            if (shoe.HasValue)
+            {
+                normalValue = shoe.Value;
+            }
 
             //decimal? myNullableDecimal = null;
 
             //DateTime? myBithdate = null;
 
             //string myText = string.Empty;
-
-
-
-            
-
-
-
-
-
-
         }
     }
 }

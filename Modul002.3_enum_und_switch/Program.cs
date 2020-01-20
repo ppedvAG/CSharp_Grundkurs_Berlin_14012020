@@ -10,6 +10,7 @@ namespace Modul002._3_enum_und_switch
     
     class Program
     {
+
         enum Anrede { Herr, Frau, Diverses };
        
 
